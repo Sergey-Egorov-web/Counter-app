@@ -18,7 +18,7 @@
   top: 206px;
   background: #4191ff;
   border-radius: 20px;
-  /* border: 1px solid; */
+  cursor: pointer;
 }
 
 .text-button {
@@ -31,7 +31,8 @@
 }
 
 .counter-reset {
-  display: block;
+  display: none;
+  /* display: block; */
   box-sizing: border-box;
   margin: 36px auto;
   width: 500px;
@@ -39,4 +40,8 @@
   background: #d45366;
   border-radius: 20px;
   border: none;
+}
+
+.counter-reset.active {
+  display: block;
 }
