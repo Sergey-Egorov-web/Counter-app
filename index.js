@@ -1,8 +1,8 @@
 const ACTIVE_COUNTER_CLASSNAME = "active";
 
-let button = document.querySelector(".counter-plus");
-let buttonReset = document.querySelector(".counter-reset");
-let counterText = document.querySelector(".counter");
+let button = document.querySelector(".js-counter-plus");
+let buttonReset = document.querySelector(".js-counter-reset");
+let counterText = document.querySelector(".js-counter");
 
 let counter = 0;
 
