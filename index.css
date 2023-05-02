@@ -1,45 +1,38 @@
-.counter {
-  text-align: center;
-  margin-top: 128px;
+p {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #000000;
 }
-.counter-plus {
-  display: block;
+
+button {
   box-sizing: border-box;
-  margin: 36px auto 36px auto;
   width: 500px;
   height: 100px;
-  left: 470px;
-  top: 206px;
-  background: #4191ff;
   border-radius: 20px;
   cursor: pointer;
 }
 
+.counter {
+  text-align: center;
+  margin-top: 128px;
+  color: #000000;
+}
+.counter-plus {
+  display: block;
+  margin: 36px auto 36px auto;
+  background: #4191ff;
+}
+
 .text-button {
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
   color: #ffffff;
 }
 
 .counter-reset {
   display: none;
-  /* display: block; */
-  box-sizing: border-box;
   margin: 36px auto;
-  width: 500px;
-  height: 100px;
   background: #d45366;
-  border-radius: 20px;
-  border: none;
 }
 
 .counter-reset.active {
